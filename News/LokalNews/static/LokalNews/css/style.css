@@ -1,0 +1,44 @@
+body html {
+    width: 100%;
+    background-color: black;
+}
+
+.contentall {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    text-align: center;
+    height: auto;
+    width: 70%;
+    margin-left: 250px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(24, 247, 235, 0.4);
+}
+
+.continer_menu {
+    width: 100%;
+}
+
+.menu {
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.menu a {
+    color: rgb(17, 236, 236);
+    padding-inline: 160px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.read_article {
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+{% extends 'LokalNews\layout.html' %}
+
+{% block content %}
+
+    {% for i in new %}
+        <h2>{{ i.title }}</h2>
+        <p>{{ i.picture }}</p>
+        <p>{{ i.text|truncatewords:20}}</p>
+        <p>{{ i.authors }}</p>
+        <p class="read_article"><a href="{{ i.get_absolute_url }}">Читать статью</a></p>
+    {% endfor %}
+
+{% endblock %}
